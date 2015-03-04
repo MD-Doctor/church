@@ -1,0 +1,518 @@
+
+.wrapper{
+    height: 100%;
+}
+
+
+body{
+    margin: 0px;
+    width: 100%;
+    
+    
+}
+/* Navigation */
+header{
+    height: 60px;
+    background-color: #3b3b44;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+
+#nav li {
+    list-style: none;
+    display: inline-table;
+    padding: 5px;
+    float: left;
+}
+
+#nav li a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Cinzel', serif;
+    border-right: solid 10px transparent;
+    
+}
+
+#nav ul li a.active{
+    color: #7bccff;
+}
+
+#nav ul li a:hover{
+     color: #7bccff;
+}
+
+.icon{
+    
+   float: right;
+   margin-right: 10px;
+   
+}
+
+.icon2{
+    
+    float: right;
+    margin-right: 120px;
+}
+.icon:hover, .icon2:hover{
+    opacity: .4;
+}
+
+/* End Navigation */
+
+
+
+/* Footer */
+.footer-col{
+    background-color: #3B3B44;
+    padding-bottom: 20px;
+    clear: both;
+}
+
+footer{
+    
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+   
+}
+.worship{
+font-size: 20px;
+text-decoration: underline;
+margin-top: 5px;
+}
+
+.col-1-2{
+    
+   padding-left: 150px; 
+}
+
+.break, .icon3, .icon4{
+    visibility: hidden;
+}   
+
+.icon3:hover, .icon4:hover{
+    opacity: .4;
+}
+
+/* End Footer */
+
+
+
+
+/* index.html */
+
+
+#home{
+
+    height: 750px;
+
+}
+img.churchPic{
+    
+   width: 100%;
+   height: 100%;
+}
+
+.churchName{
+    
+    
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    top: 150px;
+    left: 990px;
+    position: absolute;
+    z-index: 100;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    display: none;
+}
+
+.content{
+    color: #FFFFFF;
+}
+/* End index.html */
+
+
+
+
+/* mission.html */
+.mission{
+    
+    margin-top: 60px;
+    text-align: center;
+    background: #dcdcdc;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+.amemotto{
+    color: #8F0047;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.motto{
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.mission p{
+    
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* End mission.html */
+
+
+
+
+/* about.html */
+
+#about {
+    background: url("../Images/Bethany.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    overflow: hidden;
+    opacity: .7;
+    
+}
+
+ .about2{
+    display: none;
+ }
+ 
+ 
+.about{
+    
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.history{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: larger;
+    line-height: 2em;
+    color: #000000;
+    font-family: verdana, serif;
+ 
+
+}
+/* End about.html */
+
+
+
+
+
+/* pastor.html */
+.pastor{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Cinzel', serif;
+}
+
+
+.pastor2{
+    line-height: 2em;
+}
+.group{
+    
+    width: 100%;
+   
+}
+.left {
+    float: left;
+    width: 45%;
+    margin-left: 40px;
+    margin-top: -20px;
+    font-family: verdana, serif;
+}
+.right {
+    float: right;
+    width: 45%;
+    margin-top: 140px;
+    margin-right: 40px;
+    
+}
+.group:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+img.img{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+}
+/* End pastor.html */
+
+
+
+
+/* ministries.html */
+#page{
+    
+    background-color: #7BBCFF;
+}
+
+#accordion{
+    
+    margin: 60px 275px 100px 275px;  
+}
+
+.ministries{
+    margin-top: 125px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-family: 'Cinzel', serif;
+}
+
+.life{
+    height: 350px;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    outline: 0;
+}
+
+.center{
+   
+    text-align: center;
+    font-size: 15px;
+   
+    
+}
+ul.center {
+   list-style: inside;
+   margin-right: 50px;
+   
+   
+}
+
+#accordion img{
+    margin: 5px;
+    padding: 10px;
+    border: solid black 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+
+
+.photoviewer{
+   
+   text-align: center;
+   
+    
+}
+#accordion .thumbnails img{
+    
+    height: 75px;
+    display: inline-block;
+}
+
+
+
+/* End ministries.html */
+
+/* events.html */
+.join{  
+ font-size: 40px;
+ color:#7BBCFF;
+ text-align: center;
+ text-transform: uppercase;
+ text-shadow: 2px 2px 2px #000000;
+}
+
+.upcoming{
+ margin-left: 50px;
+ padding: 60px;
+}
+
+.date{
+    font-size: 25px;
+}
+
+.event{
+    font-size: 20px;
+    text-decoration: underline;
+}
+/* End events.html */
+
+
+
+/* contact.html */ 
+.us{
+    margin-top: 60px;
+    padding: 10px;
+    font-size: 40px;
+    height: 70px;
+    color: white;
+    text-transform: uppercase;
+    background-color:  #7BBCFF;  
+ }
+.us, .address, .map{
+    text-align: center;
+    
+ }
+ .address, .map{
+    font-size: 20px;
+ }
+ 
+ .imap{
+    width: 625px;
+    height: 450px;
+ }
+ 
+/* End contact.html */
+
+
+
+/* Media Queries */
+
+
+@media screen and (min-width: 320px) and (max-width: 979px) {
+
+
+.churchName{
+    
+   display: none;
+}
+
+.left, .right, .col-1-2{
+    float: none;
+    width: auto;
+    margin: 0px;
+}
+
+.pastor1{
+    display: none;
+}
+
+.history{  
+    margin:10px;
+    padding-bottom: 20px;  
+}
+
+#about{
+    background: none;
+    
+}
+.about2{
+    display: block;
+    width: 100%;
+}
+
+.content{
+    text-align: center;   
+}
+    
+.icon, .icon2{
+    visibility: hidden;
+}
+    
+.break, .icon3, .icon4{
+    visibility: visible;
+}   
+.left{
+    margin: 10px;
+}
+
+.group{
+    margin: 0 auto;
+    padding-bottom: 300px;
+}
+
+img.img{
+    
+    height: 300px;
+    width: 65%;
+    left: 0; right:0;
+    margin: auto;
+    padding-bottom: 30px;
+}
+    
+#accordion{
+    
+    margin: 0px;
+}
+.life{
+    width: 100%;
+    height: 100%;
+}
+  
+.upcoming{
+    margin: auto;
+    text-align: center;
+}
+.imap{
+    
+    width: 90%;   
+}
+
+}
+
+
+@media screen and   (min-width: 768px){
+    
+.content{
+    margin-right: 10px;
+    margin-left: -120px;   
+}
+
+}
+
+@media screen and  (min-width: 980px)and (max-width: 1480px){  
+ 
+#accordion{
+    
+    margin: 50px;
+}
+.churchName{
+    
+    left: 700px;
+    font-size: 22px;
+}
+
+img.img{
+    
+    height: 550px;
+    width: 45%;
+    margin-top: -90px;
+    
+}
+.pastor{
+    display: none;
+}
+.pastor1{
+    
+    margin-top: 120px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+.content{
+    padding-left: 60px;
+}
+
+}
+
+
+
+/* End Media Queries */ 
+

@@ -1,0 +1,75 @@
+
+
+/*Responsive Navigation CSS*/
+
+
+#navigation{
+	
+	width: 100%;
+	background-color: #3b3b44;	
+}
+
+#btn-mobile{
+	display: none;
+}
+
+
+
+/*Media Query for Responsive Navigation*/
+
+@media screen and (max-width: 969px){
+	
+#navigation{
+	display: none;
+}
+	
+#navigation ul{
+	width: 100%;
+	height:260px;
+	padding: 0px;
+	margin-top: -5px;
+}
+#navgation a, #navigation li{
+	width: 100%;
+	display: block;
+}
+	
+#navigation ul li {
+	border-bottom: 1px solid;
+}
+#navigation ul li:last-child{
+	border-bottom: none;
+}
+
+#btn-mobile{	
+	display: block;
+	width: 100%;
+	font-family: helvetica;
+	color: #FFFFFF;
+	text-decoration: none;
+	line-height: 40px;
+	text-shadow: 1px 1px 0 #283744;
+	padding: 10px;
+	text-transform: uppercase;
+	
+}
+
+ #btn-mobile:after{
+	content:"";
+	background:url(../Images/nav-icon.png) no-repeat;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	}
+
+#btn-mobile, #navigation a{
+	text-align: left;
+	font-size: 20px;	
+}
+
+
+
+}/*End Media Query*/
